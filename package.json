@@ -1,0 +1,17 @@
+{
+  "name": "social-media-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "concurrently \"tsc -watch\" \"node --watch .\"",
+   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
