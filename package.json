@@ -5,13 +5,18 @@
   "main": "dist/main.js",
   "type": "commonjs",
   "scripts": {
-    "start": "concurrently \"tsc -watch\" \"node --watch .\"",
-   
+    "start": "concurrently \"tsc -watch\" \"node --watch .\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.2.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0"
   }
 }

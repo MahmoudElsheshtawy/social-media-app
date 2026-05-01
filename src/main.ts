@@ -1,3 +1,3 @@
-import {bootstrap} from './app.controller';
-import
-bootst
+import { bootstrap } from "./app.controller";
+
+bootstrap();
