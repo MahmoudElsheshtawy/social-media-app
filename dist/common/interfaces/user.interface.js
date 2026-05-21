@@ -1,4 +1,2 @@
 "use strict";
-// mast be none 
-// all good with naming convention
 Object.defineProperty(exports, "__esModule", { value: true });
